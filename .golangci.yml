@@ -24,5 +24,11 @@ issues:
     - gochecknoinits
     path: cmd/
   - linters:
+    - gosec
+    path: internal/generate-assets/
+  - linters:
+    - gosec
+    path: internal/generate-helps/
+  - linters:
     - scopelint
     path: "_test\\.go"
